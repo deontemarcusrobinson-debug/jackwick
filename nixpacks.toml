@@ -1,0 +1,8 @@
+[phases.install]
+cmds = ["rm -rf node_modules/.cache || true", "npm install --omit=dev --no-audit --no-fund"]
+
+[phases.build]
+cmds = ["echo 'using committed public assets'"]
+
+[start]
+cmd = "node scripts/railway-boot.js"

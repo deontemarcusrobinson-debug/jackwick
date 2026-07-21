@@ -1,0 +1,12 @@
+GOLDWITCH → GITHUB → RAILWAY (simple)
+
+1. Push this WHOLE folder to GitHub (all folders: public, views, services, sql, …)
+2. Railway → New Project → Add MySQL
+3. Railway → Deploy from GitHub → pick this repo
+4. Set variables: APP_NAME, APP_ABBREVIATION, APP_SECURE=false, APP_ENV=production, SESSION_SECRET
+5. Wait for deploy. Open the Railway URL.
+6. Set APP_URL to that https URL and redeploy once.
+
+Do NOT use github.io — that is not your casino.
+Do NOT upload only package.json / README — upload the full project.
+Do NOT put .env on GitHub.
